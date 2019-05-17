@@ -27,7 +27,7 @@ def main():
       email = create_message('from_email@example.net', 'to_email@ecample.net',
                              'Alert', alert_strings[0])  # Prep the email.
       send_message(gmail_service, 'me', email)  # Send the email
-      print('Alerts fired, exitnig.')
+      print('Alerts fired, exiting.')
       sys.exit()
     time.sleep(60)  # Run at frequency of 1/minute.
 
@@ -60,7 +60,7 @@ def run_cmds():
 
 
 def prep_gmail():
-    """Sends email message.
+    """Prepare the gMail API service.
 
     Returns gmail service object.
     """
