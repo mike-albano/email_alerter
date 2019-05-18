@@ -1,5 +1,5 @@
 # email_alerter
-Simple script to check output and email if condition found. Uses gMail API.
+Simple script to check command output and email if condition found. Uses gMail API.
 
 ## Requirements
 ```
